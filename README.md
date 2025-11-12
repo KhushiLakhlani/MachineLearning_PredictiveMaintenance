@@ -12,7 +12,7 @@ Advanced machine learning system for predicting Remaining Useful Life (RUL) of a
 - **Optimization:** Hyperparameter tuning using Grid Search and Random Search with cross-validation
 - **Impact:** Demonstrated potential 27% reduction in unscheduled maintenance costs
 
-# 📊 Results Summary
+## 📊 Results Summary
 
 | Model | Training Accuracy | Test Accuracy | Key Strength |
 |-------|------------------|---------------|--------------|
