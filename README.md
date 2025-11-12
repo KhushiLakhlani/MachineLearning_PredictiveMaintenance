@@ -36,3 +36,73 @@ Advanced machine learning system for predicting Remaining Useful Life (RUL) of a
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical-teal)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange?logo=jupyter)
+
+
+## 🔧 Installation & Setup
+
+### Prerequisites
+- Python 3.8 or higher
+- Jupyter Notebook
+
+### Quick Start
+```bash
+# Clone the repository
+git clone https://github.com/KhushiLakhlani/MachineLearning_PredictiveMaintenance.git
+cd MachineLearning_PredictiveMaintenance
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter Notebook
+jupyter notebook
+```
+
+### Run the Analysis
+1. Open `notebooks/01_Data_Exploration.ipynb`
+2. Run all cells sequentially
+3. Continue with notebooks 02 and 03
+
+---
+
+## 📈 Key Features
+
+### 1. Advanced Data Preprocessing
+- Handled missing values and outlier detection
+- Normalized sensor readings across 21 measurements
+- Created derived metrics for engine degradation patterns
+
+### 2. Feature Engineering
+- **PCA:** Reduced 21 sensor dimensions while preserving 95% variance
+- **Temporal Features:** Extracted cycle-based degradation indicators
+- **Custom Metrics:** Calculated remaining useful life (RUL) targets
+
+### 3. Model Development
+- **Linear Regression:** Baseline model for performance comparison
+- **Random Forest:** Ensemble learning with 100 estimators
+- **Support Vector Regression:** Non-linear kernel-based approach
+
+### 4. Hyperparameter Optimization
+- Grid Search with 3-fold cross-validation
+- Random Search for efficient parameter exploration
+- Model evaluation using MAE, MSE, RMSE, and R² metrics
+
+---
+
+## 📊 Dataset Information
+
+**Source:** NASA's Commercial Modular Aero-Propulsion System Simulation (C-MAPSS)
+
+**Subset Used:** FD003
+- 100 training engine trajectories
+- 100 testing engine trajectories
+- 21 sensor measurements per cycle
+- 3 operational settings
+- 2 fault modes: High-Pressure Compressor (HPC) and Fan degradation
+
+**Key Sensors Analyzed:**
+- Temperature sensors (T2, T24, T30, T50)
+- Pressure sensors (P2, P15, P30, Ps30)
+- Physical fan speeds (Nf, Nc)
+- Bleed enthalpy, fuel flow, and more
+
+---
