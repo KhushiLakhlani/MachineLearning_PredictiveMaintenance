@@ -1,5 +1,7 @@
 # Aircraft Engine Predictive Maintenance using Machine Learning
 
+<img src="images/model_comparison.png" alt="Model Performance Comparison" width="100%">
+
 ## 🎯 Project Overview
 Advanced machine learning system for predicting Remaining Useful Life (RUL) of aircraft engines using NASA's C-MAPPS turbofan engine dataset. This project demonstrates end-to-end ML engineering from data preprocessing to model deployment, achieving **83.5% prediction accuracy** with Random Forest Regression.
 
